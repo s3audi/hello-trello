@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/hello-trello"
+    "url": "https://github.com/s3audi/hello-trello"
   },
   "scripts": {
     "build": "eleventy",
@@ -11,7 +11,7 @@
     "hook": "node utils/addTrelloHook.js"
   },
   "keywords": [],
-  "author": "Phil Hawksworth <phil@netlify.com>",
+  "author": "S3audi <s3audi@hotmail.com>",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
