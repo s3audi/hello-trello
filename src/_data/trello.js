@@ -1,11 +1,14 @@
 const fetch = require('node-fetch');
 
 // Get any environment variables we need
-// With public fallbacks for happier onboarding
+// With public fallbacks for happier onboarding  
+// Orjin              TRELLO_BOARD_URL='https://trello.com/b/Zzc0USwZ/hellotrello',
+// Orjin              TRELLO_LIST_ID='5e98325d6d6bd120f2b7395f',
+// Orjin              TRELLO_BOARD_URL='https://trello.com/b/Zzc0USwZ/hellotrello',
 require('dotenv').config();
 const {
-  TRELLO_BOARD_URL='https://trello.com/b/Zzc0USwZ/hellotrello',
-  TRELLO_LIST_ID='5e98325d6d6bd120f2b7395f',
+  TRELLO_BOARD_URL='https://trello.com/b/OuvsGoU3/hellotrelloturq',
+  TRELLO_LIST_ID='64d4b276420088129b6ac6d3',
   BRANCH } = process.env;
 
 
